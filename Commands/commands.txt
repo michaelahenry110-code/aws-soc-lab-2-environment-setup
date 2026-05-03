@@ -1,0 +1,11 @@
+# Connectivity checks
+
+# Linux (attacker)
+ping <windows-ip>
+nmap <windows-ip>
+
+# Windows (PowerShell)
+Test-NetConnection <linux-ip> -Port 22
+
+# SSH
+ssh user@<linux-ip>
