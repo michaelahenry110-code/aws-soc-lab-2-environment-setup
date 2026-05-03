@@ -47,7 +47,7 @@ The lab consists of multiple EC2 instances within a custom VPC:
 - Define CIDR block (e.g., 10.0.0.0/16)
 
 ### 2. Create Subnet
-- Assign subnet within VPC (e.g., 10.0.1.0/24)
+- Assign subnet within VPC (e.g., 10.0.2.0/24)
 
 ### 3. Configure Internet Gateway
 - Attach IGW to VPC
@@ -90,7 +90,6 @@ Located in `/screenshots`:
 2. EC2 instance creation  
 3. Security group rules  
 4. Successful RDP connection  
-5. Successful SSH connection  
 
 ---
 
